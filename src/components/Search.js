@@ -7,7 +7,7 @@ import { useProcess } from "../hooks/useProcess";
 export function Search() {
   const [search, setSearch] = useState("");
   const [showMessage, setShowMessage] = useState(false);
-  const { data, setData, callApiSearch, setIsFetching, setCount, count } =
+  const { data, setData, callApiSearch, setIsFetching, setCount } =
     useProcess();
 
   function onChangeInputSearch(e) {
