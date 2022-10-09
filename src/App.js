@@ -1,7 +1,8 @@
-import Search from "./components/Search";
+import React from "react";
+import Home from "./page/Home";
 
 function App() {
-  return <Search />;
+  return <Home />;
 }
 
 export default App;
