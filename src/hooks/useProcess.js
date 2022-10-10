@@ -3,7 +3,7 @@ import { api } from "../api";
 
 const ProcessContext = createContext({});
 
-const REQUEST_SEARCH_LENGTH = 192;
+const REQUEST_SEARCH_LENGTH = 289;
 
 export function ProcessProvider({ children }) {
   const [data, setData] = useState([]);
