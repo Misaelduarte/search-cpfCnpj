@@ -4,6 +4,14 @@ export const comarcas = [
     descricao: "Capital",
     competencias: [
       {
+        codigo: "24",
+        descricao: "Combate ao Crime Organizado"
+      },
+      {
+        codigo: "25",
+        descricao: "Crimes Contra a Criança e Adolescente"
+      },
+      {
         codigo: "01",
         descricao: "Cível",
       },
@@ -11,11 +19,15 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
     codigo: "204",
-    descricao: "....Bangu",
+    descricao: "Bangu",
     competencias: [
       {
         codigo: "01",
@@ -25,11 +37,15 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
     codigo: "209",
-    descricao: "....Barra da Tijuca",
+    descricao: "Barra da Tijuca",
     competencias: [
       {
         codigo: "01",
@@ -39,11 +55,15 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
     codigo: "205",
-    descricao: "....Campo Grande",
+    descricao: "Campo Grande",
     competencias: [
       {
         codigo: "01",
@@ -53,11 +73,15 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
     codigo: "207",
-    descricao: "....Ilha do Governador",
+    descricao: "Ilha do Governador",
     competencias: [
       {
         codigo: "01",
@@ -67,11 +91,15 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
     codigo: "203",
-    descricao: "....Jacarepaguá",
+    descricao: "Jacarepaguá",
     competencias: [
       {
         codigo: "01",
@@ -81,11 +109,15 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
     codigo: "210",
-    descricao: "....Leopoldina",
+    descricao: "Leopoldina",
     competencias: [
       {
         codigo: "01",
@@ -95,11 +127,15 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
     codigo: "202",
-    descricao: "....Madureira",
+    descricao: "Madureira",
     competencias: [
       {
         codigo: "01",
@@ -109,11 +145,15 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
     codigo: "208",
-    descricao: "....Méier",
+    descricao: "Méier",
     competencias: [
       {
         codigo: "01",
@@ -123,11 +163,15 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
     codigo: "211",
-    descricao: "....Pavuna",
+    descricao: "Pavuna",
     competencias: [
       {
         codigo: "01",
@@ -137,11 +181,15 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
     codigo: "206",
-    descricao: "....Santa Cruz",
+    descricao: "Santa Cruz",
     competencias: [
       {
         codigo: "01",
@@ -151,6 +199,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -165,6 +217,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -179,6 +235,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -193,6 +253,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -207,6 +271,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -221,6 +289,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -235,6 +307,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -249,6 +325,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -263,6 +343,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -277,6 +361,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -291,6 +379,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -305,6 +397,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -319,6 +415,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -333,6 +433,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -347,6 +451,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -361,6 +469,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -375,6 +487,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -389,6 +505,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -403,6 +523,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -417,6 +541,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -431,6 +559,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -445,6 +577,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -459,6 +595,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -473,6 +613,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -487,6 +631,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -501,6 +649,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -515,6 +667,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -529,6 +685,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -543,6 +703,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -557,6 +721,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -571,6 +739,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -585,6 +757,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -599,6 +775,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -613,6 +793,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -627,11 +811,15 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
     codigo: "470",
-    descricao: "....Magé - Regional de Inhomirim",
+    descricao: "Magé - Regional de Inhomirim",
     competencias: [
       {
         codigo: "01",
@@ -641,6 +829,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -655,6 +847,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -669,6 +865,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -683,6 +883,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -697,6 +901,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -711,6 +919,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -725,6 +937,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -739,6 +955,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -753,11 +973,15 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
     codigo: "473",
-    descricao: "....Região Oceânica",
+    descricao: "Região Oceânica",
     competencias: [
       {
         codigo: "01",
@@ -767,6 +991,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -781,6 +1009,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -795,11 +1027,15 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
     codigo: "439",
-    descricao: "....Mesquita",
+    descricao: "Mesquita",
     competencias: [
       {
         codigo: "01",
@@ -808,7 +1044,7 @@ export const comarcas = [
       {
         codigo: "04",
         descricao: "Criminal",
-      },
+      }
     ],
   },
   {
@@ -823,6 +1059,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -837,6 +1077,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -851,6 +1095,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -865,6 +1113,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -879,11 +1131,15 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
     codigo: "472",
-    descricao: "....Itaipava",
+    descricao: "Itaipava",
     competencias: [
       {
         codigo: "01",
@@ -893,6 +1149,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -907,6 +1167,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -921,6 +1185,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -935,6 +1203,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -949,6 +1221,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -963,6 +1239,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -977,6 +1257,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -991,6 +1275,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -1005,6 +1293,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -1019,6 +1311,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -1033,6 +1329,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -1047,6 +1347,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -1061,6 +1365,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -1075,6 +1383,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -1089,15 +1401,15 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
     codigo: "225",
     descricao: "São Gonçalo",
-  },
-  {
-    codigo: "474",
-    descricao: "....Alcântara",
     competencias: [
       {
         codigo: "01",
@@ -1107,6 +1419,28 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
+    ],
+  },
+  {
+    codigo: "474",
+    descricao: "Alcântara",
+    competencias: [
+      {
+        codigo: "01",
+        descricao: "Cível",
+      },
+      {
+        codigo: "04",
+        descricao: "Criminal",
+      },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -1121,6 +1455,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -1135,6 +1473,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -1149,6 +1491,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -1163,6 +1509,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -1177,6 +1527,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -1191,6 +1545,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -1205,6 +1563,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -1219,6 +1581,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -1233,6 +1599,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -1247,20 +1617,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
-    ],
-  },
-  {
-    codigo: "356",
-    descricao: "Tanguá",
-    competencias: [
       {
-        codigo: "01",
-        descricao: "Cível",
-      },
-      {
-        codigo: "04",
-        descricao: "Criminal",
-      },
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -1275,6 +1635,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -1289,6 +1653,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -1303,6 +1671,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -1317,6 +1689,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -1331,6 +1707,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
   {
@@ -1345,6 +1725,10 @@ export const comarcas = [
         codigo: "04",
         descricao: "Criminal",
       },
+      {
+        codigo: "05",
+        descricao: "Criminal - Juri"
+      }
     ],
   },
 ];
