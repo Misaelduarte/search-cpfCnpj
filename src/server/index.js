@@ -4,10 +4,12 @@ import cors from "cors";
 import bodyParser from "body-parser";
 const app = express();
 
+const port = process.env.PORT || 7777;
+
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.listen(7777);
+app.listen(port);
 
 app.use(cors());
 app.post("/search", (req, res) => {
