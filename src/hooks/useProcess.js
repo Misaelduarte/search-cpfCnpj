@@ -8,6 +8,8 @@ const REQUEST_SEARCH_LENGTH = 289;
 export function ProcessProvider({ children }) {
   const [data, setData] = useState([]);
   const [isFetching, setIsFetching] = useState(false);
+  const [isSearchNotFound, setIsSearchNotFound] = useState(false);
+  const [isButtonSearchDisabled, setIsButtonSearchDisabled] = useState(false);
   const [count, setCount] = useState(0);
 
   function callApiSearch(comarca, competencia, search, index) {
@@ -28,9 +30,13 @@ export function ProcessProvider({ children }) {
   }
 
   useEffect(() => {
-    console.log("🚀 ~ count", count);
     if (count === REQUEST_SEARCH_LENGTH) {
       setIsFetching(false);
+      setIsButtonSearchDisabled(false);
+
+      if (data.length <= 0) {
+        setIsSearchNotFound(true);
+      }
     }
   }, [count, data.length]);
 
@@ -44,6 +50,10 @@ export function ProcessProvider({ children }) {
         setIsFetching,
         count,
         setCount,
+        isSearchNotFound,
+        setIsSearchNotFound,
+        isButtonSearchDisabled,
+        setIsButtonSearchDisabled,
       }}
     >
       {children}

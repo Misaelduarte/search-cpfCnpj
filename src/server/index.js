@@ -57,6 +57,7 @@ app.post("/search", (req, res) => {
     .catch(function (error) {
       if (error) {
         console.log(error);
+        return res.json({ message: "CPF ou CNPJ inválido!" });
       }
     });
 });

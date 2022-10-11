@@ -2,7 +2,7 @@ import React from "react";
 
 // import { Container } from './styles';
 
-function Alert({ isSuccess }) {
+export function Alert({ isSuccess }) {
   return (
     <div
       className={`${
@@ -31,5 +31,3 @@ function Alert({ isSuccess }) {
     </div>
   );
 }
-
-export default Alert;
