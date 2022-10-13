@@ -28,16 +28,6 @@ export function ListProcessTable() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filter]);
 
-  function onFilterComarcas() {
-    const dataFilter = data.filter((item) => item.comarca === filter);
-
-    if (dataFilter.length > 0) {
-      setNewData(dataFilter);
-    } else {
-      setNewData([{}]);
-    }
-  }
-
   const handleOpenProcessModal = useCallback(
     (process) => () => {
       setOneProcess(process);
@@ -77,6 +67,18 @@ export function ListProcessTable() {
     });
 
     return competenciaDescription;
+  }
+
+  function onFilterComarcas() {
+    const dataFilter = data.filter(
+      (item) => renderComarcaDescription(item.comarca) === filter
+    );
+
+    if (dataFilter.length > 0) {
+      setNewData(dataFilter);
+    } else {
+      setNewData([{}]);
+    }
   }
 
   return isFetching ? (
@@ -131,7 +133,7 @@ export function ListProcessTable() {
                       <div className="flex items-center">
                         <div>
                           <div className="text-sm leading-5 text-gray-800">
-                            #{index}
+                            #
                           </div>
                         </div>
                       </div>

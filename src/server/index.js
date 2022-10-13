@@ -17,7 +17,7 @@ app.post("/search", (req, res) => {
 
   const data = {
     anoInicial: "2000",
-    anoFinal: 2022,
+    anoFinal: "2022",
     origem: "1",
     totalProcessoPesquisa: 300,
     tipoConsulta: "publica",

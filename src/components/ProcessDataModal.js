@@ -1,6 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
+import copy from "copy-to-clipboard";
 
 export function ProcessDataModal({ closeModal, process }) {
+  const [isCopy, setIsCopy] = useState(false);
+
+  function assembleCopyText(content) {
+    const renderTextCopy = `${content.codCnj} – Figura como ${content.tipoReu}`;
+    copy(renderTextCopy);
+  }
+
+  function onCopyContent(content) {
+    assembleCopyText(content);
+    setIsCopy(true);
+
+    setTimeout(() => {
+      closeModal();
+      setIsCopy(false);
+    }, 700);
+  }
+
   return (
     <>
       <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none w-full">
@@ -69,6 +87,11 @@ export function ProcessDataModal({ closeModal, process }) {
               <div className="px-20" />
             </div>
             {/*footer*/}
+            {isCopy && (
+              <div className="absolute right-10 bottom-1 text-sm">
+                <span>Copiado!</span>
+              </div>
+            )}
             <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
               <button
                 className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
@@ -80,7 +103,7 @@ export function ProcessDataModal({ closeModal, process }) {
               <button
                 className="bg-emerald-500 text-white active:bg-emerald-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                 type="button"
-                onClick={() => closeModal()}
+                onClick={() => onCopyContent(process)}
               >
                 Copy
               </button>
