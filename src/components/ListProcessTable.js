@@ -110,9 +110,9 @@ export function ListProcessTable() {
                 <th className="px-6 py-3 border-b-2 border-gray-300 text-left leading-4 text-blue-500 tracking-wider">
                   Nº
                 </th>
-                <th className="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">
+                {/* <th className="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">
                   Autor
-                </th>
+                </th> */}
                 <th className="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">
                   Comarca
                 </th>
@@ -133,16 +133,16 @@ export function ListProcessTable() {
                       <div className="flex items-center">
                         <div>
                           <div className="text-sm leading-5 text-gray-800">
-                            #
+                            {item?.codCnj}
                           </div>
                         </div>
                       </div>
                     </td>
-                    <td className="px-6 py-4 whitespace-no-wrap border-b border-gray-500">
+                    {/* <td className="px-6 py-4 whitespace-no-wrap border-b border-gray-500">
                       <div className="text-sm leading-5 text-blue-900">
                         {item?.nomeAutor}
                       </div>
-                    </td>
+                    </td> */}
                     <td className="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5">
                       {renderComarcaDescription(process?.comarca)}
                     </td>
